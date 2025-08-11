@@ -1,0 +1,13 @@
+.StageItem {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 60px;
+}
