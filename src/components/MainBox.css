@@ -1,10 +1,14 @@
 .MainBox > img{
     width: 100%;
+    margin-bottom: 0;
+    /* height: 336px; */
 
 
 }
 .MainBox {
     position: relative;
+    
+
 }
 
 .MainBox > button {

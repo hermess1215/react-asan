@@ -4,7 +4,7 @@
     background-color: #F0F4F7;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .WhyList > h1 {
     text-align: center;
