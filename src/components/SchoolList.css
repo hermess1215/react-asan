@@ -1,0 +1,105 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+
+    background: #f6f8fa;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.search-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    padding: 12px 18px;
+    width: 350px;
+    font-size: 1.1rem;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+#searchInput:focus {
+    border: 1.5px solid #007bff;
+}
+
+#list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.school {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 22px 28px 18px 28px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    transition: box-shadow 0.2s, background 0.2s;
+    position: relative;
+    border: 1.5px solid #e3e7ed;
+}
+.school:hover {
+    background: #f0f6ff;
+    box-shadow: 0 4px 18px rgba(0,123,255,0.08);
+    border: 1.5px solid #b6d4fe;
+}
+.school strong {
+    font-size: 1.25rem;
+    color: #1a237e;
+}
+.school .meta {
+    color: #555;
+    font-size: 0.98rem;
+    margin: 6px 0 0 0;
+}
+.departments {
+    margin-top: 18px;
+    padding: 18px 20px 10px 20px;
+    background: #f8fbff;
+    border-radius: 10px;
+    border: 1px solid #e3e7ed;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    animation: fadeIn 0.4s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.department {
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3e7ed;
+}
+.department:last-child {
+    border-bottom: none;
+}
+.department strong {
+    color: #007bff;
+    font-size: 1.08rem;
+}
+.department .desc {
+    color: #444;
+    font-size: 0.97rem;
+    margin-top: 2px;
+}
+.department .schools {
+    margin-top: 4px;
+    color: #666;
+    font-size: 0.95rem;
+}
+.no-data {
+    color: #888;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.05rem;
+}

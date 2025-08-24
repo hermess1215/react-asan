@@ -1,18 +1,3 @@
-header > ul > li {
-    list-style: none;
-    color: white;
-    font-weight: bold;
-    margin: 30px;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
-header > ul {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-}
-
 header {
     width: 100%;
     height: 80px;
@@ -21,6 +6,46 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+header > ul {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+header ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.menuLink {
+    text-decoration: none;
+    color: #f0e6d2;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.menuLink:hover{
+    background-color: #f3d44b;
+    color: #1a2a3b;
+}
+
+.img{
+    background-color: #1a2a3b;
+    
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 165.41px;
+    height: 70px;
+}
+
+
 
 img{
     background-color: #1a2a3b;

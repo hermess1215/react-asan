@@ -6,12 +6,12 @@ import Git from "../assets/free-icon-github-logo-25231.png"
 const Footer = () => {
     return(
         <div className="Footer">
-            <p>Copyright. 2025 Aarsan. All rights reserved</p>
+            <p>&copy;Copyright. 2025 Asan. All rights reserved.</p>
 
             <ul className="logoImgWrapper">
-                <li><img src={Instar} alt="" /></li>
-                <li><img src={Google} alt="" /></li>
-                <li><img src={Git} alt="" /></li>
+                <li><img src={Instar} alt="Insta" /></li>
+                <li><img src={Google} alt="Google" /></li>
+                <li><img src={Git} alt="Github" /></li>
             </ul>
 
         </div>

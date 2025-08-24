@@ -1,0 +1,34 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+
+    background: #f6f8fa;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.search-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    padding: 12px 18px;
+    width: 350px;
+    font-size: 1.1rem;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+#searchInput:focus {
+    border: 1.5px solid #007bff;
+}
