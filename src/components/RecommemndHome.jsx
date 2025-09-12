@@ -8,7 +8,7 @@ const RecommendHome = () => {
             <div id="home-page" className="page">
                 <div className="text-center pt-8">
                     <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">당신의 진로, 여기서 설계해보세요!</h1>
-                    <p className="text-lg text-textSecondary mb-12 max-w-2xl mx-auto">
+                    <p className="text-lg text-textSecondary mb-18 max-w-2xl mx-auto">
                         고교학점제, 더 이상 복잡하게 생각하지 마세요. <br />
                         나에게 맞는 학과를 찾고, 필요한 과목 선택까지 한 번에!
                     </p>
